@@ -1,10 +1,11 @@
+
 {
   "name": "claude-ai-remotion-promo",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "render": "remotion render src/index.ts Main out/claude-ai-promo.mp4",
-    "studio": "remotion studio src/index.ts"
+    "render": "remotion render index.ts Main out/claude-ai-promo.mp4",
+    "studio": "remotion studio index.ts"
   },
   "dependencies": {
     "@remotion/cli": "4.0.319",
