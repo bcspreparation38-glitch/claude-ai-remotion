@@ -1,7 +1,11 @@
+
 name: Render Remotion Video
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   render:
